@@ -46,7 +46,7 @@ if(isset($_POST['name'])){
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to Travel Form</title>
+    <title>Feedback forum</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto|Sriracha&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -57,7 +57,7 @@ if(isset($_POST['name'])){
             <p>Enter your details</p>
         <?php
         if($insert == true){
-        echo "<p class='submitMsg'>Thanks for submitting your form. We are happy to see you joining us for the US trip</p>";
+        echo "<p class='submitMsg'>Thanks for submitting your form.</p>";
         }
     ?>
         <form action="index.php" method="post">
